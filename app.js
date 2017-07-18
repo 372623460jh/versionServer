@@ -134,14 +134,19 @@ app.get('/getRnVersion', function (req, res) {
     // 老文件MD5：cae2f02db8e9b111bfe47cd49b5c1d01
     // 新文件MD5：b7067a8f9b1059b08a9b4b899e60f4df
     // 差异压缩包MD5：2763579badeb5638913e1db6372e3910
+    // jianghe1499938792883
+
+    // 新文件MD5：c32c37222c459b75987b321cebee60c6
+    // 老文件MD5：f54ecb263b375b7521a7c137d129c736
+    // 差异压缩包MD5：5e31173c338d32c8db51b2ae68d0e935
+    // jianghe1500369700432
 
     var rnData = {
         REV: true,
         msg: {
-            version: 2,//版本号
-            bundleMd5: 'b7067a8f9b1059b08a9b4b899e60f4df',//最新bundleMD5
-            downloadAdd: 'http://192.168.18.77:8080/rnPackger/jianghe1499938792883.zip',//增量压缩包的下载地址
-            addMd5: '2763579badeb5638913e1db6372e3910',//增量压缩包的MD5
+            bundleMd5: 'c32c37222c459b75987b321cebee60c6',//最新bundleMD5
+            downloadAdd: 'http://192.168.18.77:8080/rnPackger/jianghe1500369700432.zip',//增量压缩包的下载地址
+            addMd5: '5e31173c338d32c8db51b2ae68d0e935',//增量压缩包的MD5
             downloadAll: 'http://192.168.18.77:8080/rnPackger/jj.zip',//全量压缩包的下载地址
             allMd5: '666c32e6cd5bb1667bcfb634c807a236',//全量压缩包的MD5
         }
